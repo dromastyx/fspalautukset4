@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiaWQiOiI1ZWYzODk0ZGIyODllNTI4YzQwMjYzM2EiLCJpYXQiOjE1OTMwMTk0ODJ9.JqnT4u0O0zmJTS-QWuWH0UmiZ3bxEWPQhTdaGdeb9OI
+
+{
+  "title": "New Blog",
+  "author": "Edsger W. Dijkstra",
+  "url": "http://www.u.arizona.edu/~rubinson/copyright_violations/Go_To_Considered_Harmful.html",
+  "likes": 6
+}
